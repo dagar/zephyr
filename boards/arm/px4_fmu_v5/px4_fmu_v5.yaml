@@ -1,0 +1,16 @@
+identifier: px4_fmu_v5
+name: PX4_FMU_V5
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 384
+flash: 2048
+supported:
+  - arduino_i2c
+  - i2c
+  - spi
+  - gpio
+  - netif:eth

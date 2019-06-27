@@ -1,0 +1,10 @@
+# Kconfig - PX4_FMU_V5 board configuration
+#
+# Copyright (c) 2018 Daniel Agar
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config BOARD_PX4_FMU_V5
+	bool "PX4 FMU v5"
+	depends on SOC_STM32F765XX
